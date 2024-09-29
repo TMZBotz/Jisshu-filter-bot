@@ -1650,15 +1650,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='broze'),
+            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='premium_info'),
             InlineKeyboardButton('1 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='gold')
+            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='broze')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.SILVER_TXT.format(query.from_user.mention),
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
+        await query.message.edit_text(
+            text=script.FREE_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )   
@@ -1667,15 +1676,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🔐 ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data='purchase')
         ],[
-            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='broze'),
+            InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='free'),
             InlineKeyboardButton('2 / 7', callback_data='pagesn1'),
-            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='gold')
+            InlineKeyboardButton('ɴᴇxᴛ ⋟', callback_data='silver')
         ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.SILVER_TXT.format(query.from_user.mention),
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
+        await query.message.edit_text(
+            text=script.BRONZE_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
@@ -1691,6 +1709,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
         await query.message.edit_text(
             text=script.SILVER_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -1709,6 +1736,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
+        await query.message.edit_text(
             text=script.GOLD_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -1725,6 +1761,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
         await query.message.edit_text(
             text=script.PLATINUM_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -1744,6 +1789,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
+        await query.message.edit_text(
             text=script.DIAMOND_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -1757,10 +1811,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='free')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto(random.choice(PAYPICS))
+            InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
             text=script.OTHER_TXT.format(query.from_user.mention),
@@ -1782,6 +1845,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Cʟᴏsᴇ 👮', callback_data='close_data')
         ]]
         reply_markup = InlinekeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="𝓦𝓪𝓲𝓽...."
+        )
+        await query.message.edit_text(
+            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
+        )
+        await query.message.edit_text(
+            text="𝑫𝒐𝒏𝒆 ✅"
+        )
         await query.message.edit_text(
             text=script.CHANNELS.format(query.from_user.mention),
             reply_markup=reply_markup,
