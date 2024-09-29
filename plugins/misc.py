@@ -12,8 +12,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 bot = Client("imdb_bot")
 translator = Translator()
-# https://t.me/JISSHU_BOTS
-# https://t.me/Jisshu_support
+
 @Client.on_message(filters.command('id'))
 async def showid(client, message):
     chat_type = message.chat.type
@@ -136,12 +135,11 @@ IMDB_TEMPLATE = """<b>
 🎃 Genres: {genres}
 📆 Year: {year}
 ⭐ Rating: {rating} / 10
-🔉 Audio: #Hindi #English
+🔉 Language: {language}
 
 📕 Story: {plot}</b>
 """
-# https://t.me/JISSHU_BOTS
-# https://t.me/Jisshu_support
+
 @Client.on_message(filters.command(["imdb", 'search']))
 async def imdb_search(client, message):
     if ' ' in message.text:
@@ -178,7 +176,6 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
     message = quer_y.message.reply_to_message or quer_y.message
     if imdb:
         plot_en = imdb['plot']
-        plot_hi = translator.translate(plot_en, src='en', dest='hi').text
 
         caption = IMDB_TEMPLATE.format(
             query = imdb['title'],
@@ -206,7 +203,7 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
             year = imdb['year'],
             genres = imdb['genres'],
             poster = imdb['poster'],
-            plot = plot_hi,  # Use translated plot here
+            plot = plot_en,  # Use translated plot here
             rating = imdb['rating'],
             url = imdb['url'],
             **locals()
@@ -227,5 +224,3 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
     else:
         await quer_y.message.edit(caption, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=False)
     await quer_y.answer()
-# https://t.me/JISSHU_BOTS
-# https://t.me/Jisshu_support
