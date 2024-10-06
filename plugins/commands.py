@@ -158,7 +158,7 @@ async def start(client, message):
                     InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                     InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='JoinUᴘᴅᴀᴛᴇs')
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='channels')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -217,7 +217,7 @@ async def start(client, message):
                     InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                     InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='JoinUᴘᴅᴀᴛᴇs')
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='channels')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -457,7 +457,7 @@ async def start(client, message):
                     ], [
                         InlineKeyboardButton('⚡ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
                     ], [
-                        InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="seeplans")                        
+                        InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="premium_info")                        
                     ]
                 ]
             )
@@ -490,7 +490,7 @@ async def start(client, message):
                     ], [
                         InlineKeyboardButton('⚡ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
                     ], [
-                        InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="seeplans")                        
+                        InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="premium_info")                        
                     ]
               ]
         ))
@@ -581,7 +581,7 @@ async def start(client, message):
                               ], [
                                     InlineKeyboardButton('⚡ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⚡', url=await get_tutorial(chat_id))
                               ], [
-                                    InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="seeplans")                        
+                                    InlineKeyboardButton('✨ Bᴜʏ Sᴜʙꜱᴄʀɪᴘᴛɪᴏɴ : Rᴇᴍᴏᴠᴇ Aᴅꜱ ✨', callback_data="premium_info")                        
                               ]
                         ]))
                     await asyncio.sleep(600)
