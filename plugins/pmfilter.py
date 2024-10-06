@@ -1846,15 +1846,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlinekeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="𝓦𝓪𝓲𝓽...."
-        )
-        await query.message.edit_text(
-            text="𝓛𝓸𝓪𝓭𝓲𝓷𝓰......"
-        )
-        await query.message.edit_text(
-            text="𝑫𝒐𝒏𝒆 ✅"
-        )
-        await query.message.edit_text(
             text=script.CHANNELS_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
