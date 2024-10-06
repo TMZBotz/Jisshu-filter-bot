@@ -1834,12 +1834,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     #jisshu
     elif query.data == "channels":
         buttons = [[
-            InlineKeyboardButton('⚜️ 𝑶𝒖𝒓 𝑪𝒉𝒂𝒏𝒏𝒆𝒍𝒔 ⚜️', url='')
+            InlineKeyboardButton('⚜️ Oᴜʀ Cʜᴀɴɴᴇʟs ⚜️', url='https://t.me/Kutty_LinkZz')
         ],[
-            InlineKeyboardButton('🍀 𝑴𝒐𝒗𝒊𝒆 𝑺𝒆𝒂𝒓𝒄𝒉 𝑮𝒓𝒐𝒖𝒑 🍀', url=''),
-            InlineKeyboardButton('🥀 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑮𝒓𝒐𝒖𝒑 🥀', url='')
+            InlineKeyboardButton('🍀 Mᴏᴠɪᴇs Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🍀', url='https://t.me/KuttyLinkZzRequest'),
+            InlineKeyboardButton('🥀 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🥀', url='https://t.me/KuttySupport')
         ],[
-            InlineKeyboardButton('✉️ 𝑹𝒆𝒒𝒖𝒆𝒔𝒕 𝑮𝒓𝒐𝒖𝒑 ✉️', url='')
+            InlineKeyboardButton('✉️ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ✉️', url='https://t.me/+FjvhE5MTRWk3OGI1')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ 👮', callback_data='close_data')
