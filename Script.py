@@ -27,7 +27,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     SOURCE_TXT = """<b>
 NOTE:
-- Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Hᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JiraiyaFilter_Bot">Jɪ̈ʀᴀɪ̈ɏᴀ/a></blockquote>
+- Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Hᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JiraiyaFilter_Bot">Jɪ̈ʀᴀɪ̈ɏᴀ<a></blockquote>
 
 </b>"""
     
