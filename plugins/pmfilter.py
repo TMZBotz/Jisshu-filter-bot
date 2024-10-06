@@ -1625,16 +1625,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     #-x
     elif query.data == "premium_info":
         buttons = [[
-            InlineKeyboardButton('⤷ Fʀᴇᴇ Tʀɪᴀʟ', callback_data='free')
+            InlineKeyboardButton('⛥ Fʀᴇᴇ Tʀɪᴀʟ', callback_data='free')
         ],[
-            InlineKeyboardButton('⤷ Bʀᴏɴᴢᴇ', callback_data='broze'),
-            InlineKeyboardButton('⤷ Sɪʟᴠᴇʀ', callback_data='silver')
+            InlineKeyboardButton('⛥ Bʀᴏɴᴢᴇ', callback_data='broze'),
+            InlineKeyboardButton('⛥ Sɪʟᴠᴇʀ', callback_data='silver')
         ],[
-            InlineKeyboardButton('⤷ Gᴏʟᴅ', callback_data='gold'),
-            InlineKeyboardButton('⤷ Pʟᴀᴛɪɴᴜᴍ', callback_data='platinum')
+            InlineKeyboardButton('⛥ Gᴏʟᴅ', callback_data='gold'),
+            InlineKeyboardButton('⛥ Pʟᴀᴛɪɴᴜᴍ', callback_data='platinum')
         ],[
-            InlineKeyboardButton('⤷ Dɪᴀᴍᴏɴᴅ', callback_data='diamond'),
-            InlineKeyboardButton('⤷ Oᴛʜᴇʀ', callback_data='other')
+            InlineKeyboardButton('⛥ Dɪᴀᴍᴏɴᴅ', callback_data='diamond'),
+            InlineKeyboardButton('⛥ Oᴛʜᴇʀ', callback_data='other')
         ],[            
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
@@ -1917,8 +1917,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='Source')
         ], [
-            InlineKeyboardButton('My Developers 😎',callback_data='mydevelopers')
-        ], [
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1928,12 +1926,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
         
-    elif query.data == "Mydevelopers":
-        await query.answer("Meet the minds behind this bot:\n\n👨‍💻 @Kutty_Botz\n\n❤️ A big thank you for making this bot awesome!", show_alert=True)
  
     elif query.data == "Source":
         buttons = [[
-            InlineKeyboardButton('Repo', url='http://postimg.cc/VrX98nPs')
+            InlineKeyboardButton('Repo', url='https://modijiurl.com/a7jPAp')
         ],[
             InlineKeyboardButton('• 𝗕𝗮𝗰𝗸 •', callback_data='about'),
             InlineKeyboardButton('• 𝗖𝗹𝗼𝘀𝗲 •', callback_data='close_data')
