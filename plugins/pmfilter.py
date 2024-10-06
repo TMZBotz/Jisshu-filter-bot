@@ -1529,7 +1529,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                     InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data="channel")
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data="JoinUᴘᴅᴀᴛᴇs")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1855,7 +1855,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="𝑫𝒐𝒏𝒆 ✅"
         )
         await query.message.edit_text(
-            text=script.CHANNELS_TXT.format(query.from_user.mention),
+            text=script.JOINUPDATES_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
