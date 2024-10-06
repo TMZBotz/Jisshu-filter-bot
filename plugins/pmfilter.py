@@ -1832,7 +1832,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
 
     #jisshu
-    elif query.data == "channel":
+    elif query.data == "JoinUᴘᴅᴀᴛᴇs":
         buttons = [[
             InlineKeyboardButton('⚜️ Oᴜʀ Cʜᴀɴɴᴇʟs ⚜️', url='https://t.me/Kutty_LinkZz')
         ],[
