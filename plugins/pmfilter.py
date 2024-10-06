@@ -1529,7 +1529,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Mᴏsᴛ Sᴇᴀʀᴄʜ 🔍', callback_data="mostsearch"),
                     InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ ⚡', callback_data="trending")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='channels')
+                    InlineKeyboardButton('Gʀᴏᴜᴘ Rᴜʟᴇꜱ 🤖', callback_data="rlu"),
+                    InlineKeyboardButton('Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇꜱ 🔥', callback_data='extra')
+                ],[
+                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data='JoinUᴘᴅᴀᴛᴇs')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
