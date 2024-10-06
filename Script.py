@@ -48,6 +48,10 @@ Aᴅᴅᴇᴅ Bʏ - {}
 
 Bʏ @JiraiyaFilter_Bot 👀"""
 
+    STREAM_TXT = """<b><u>HOW TO GET STREAM AND DOWNLOAD LINK :</u>
+
+/stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
+    
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
