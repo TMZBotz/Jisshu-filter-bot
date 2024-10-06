@@ -24,6 +24,12 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ▫ Fᴀsᴛᴇsᴛ Bᴏᴛs Aʀᴇ Aᴅᴅᴇᴅ.
 ▫ Fʀᴇᴇ & Eᴀsʏ Tᴏ Usᴇ.
 ▫ 𝟸𝟺x𝟽 Sᴇʀᴠɪᴄᴇs Aᴠᴀɪʟᴀʙʟᴇ.</b>"""
+
+    SOURCE_TXT = """<b>
+NOTE:
+- Sᴏᴜʀᴄᴇ Cᴏᴅᴇ Hᴇʀᴇ ◉› :<blockquote><a href="https://t.me/JiraiyaFilter_Bot">Jɪ̈ʀᴀɪ̈ɏᴀ/a></blockquote>
+
+</b>"""
     
     STATUS_TXT = """<b>    
 ★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
