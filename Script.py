@@ -17,7 +17,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ‣ Bᴏᴛ Sᴇʀᴠᴇʀ : <a href='https://heroku.com'>Hᴇʀᴏᴋᴜ</a> 
 ‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.7.2 [Sᴛᴀʙʟᴇ]</b>"""
     
-    CHANNELS = """
+    CHANNELS_TXT = """
 <b>⚡ Gʀᴏᴜᴘs & Cʜᴀɴɴᴇʟs Iɴғᴏ ⚡ 
 
 ▫ Aʟʟ Nᴇᴡ Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
