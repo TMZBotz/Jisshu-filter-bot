@@ -40,14 +40,14 @@ Iᴅ = <code>{}</code>
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 
-Bʏ @JiraiyaFilter_Bot 🗲"""
+Bʏ @JiraiyaFilter_Bot 👀"""
 
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @JiraiyaFilter_Bot 🗲"""
+Bʏ @JiraiyaFilter_Bot 👀"""
 
     ALRT_TXT = """Hᴇʟʟᴏ {},
 Tʜɪꜱ Iꜱ Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇꜱᴛ,
@@ -286,7 +286,7 @@ Requested by : {message.from_user.mention}</b>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-Bʏ @JiraiyaFilter_Bot 🗲</b>"""
+Bʏ @JiraiyaFilter_Bot 👀</b>"""
 
     LOGO = """
 
